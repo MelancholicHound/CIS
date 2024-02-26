@@ -1,0 +1,25 @@
+<form action="">
+    <header>
+        <h1 class="title">IMISS Computer Inventory System</h1>
+    </header>
+    <section class="user-creds">
+        <div class="email-field">
+            <input type="text" class="email" id="email" placeholder=" ">
+            <label class="email-label" for="email">Email</label>
+        </div>
+        <div class="password-field">
+            <input type="password" role="password" class="password" id="password" placeholder=" ">
+            <label class="password-label" for="password">Password</label>
+            <img src="assets/icons/visibility-on.svg" alt="" id="eye-icon" (click)="passwordToggle()">
+        </div>
+    </section>
+    <div class="forgot-password">
+        <a class="forgot-link" href="/recovery">Forgot Password?</a>
+    </div>
+    <footer>
+        <button type="submit" class="login">Login</button>
+        <p>Need an account?
+            <a class="register" href="/signup">Register Here</a>
+        </p>
+    </footer>
+</form>

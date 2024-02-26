@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+aside {
+    width: 30vw;
+    height: 100%;
+    background-color: #5FA29F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 70vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 350px;
+}
