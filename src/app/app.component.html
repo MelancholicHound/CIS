@@ -1,8 +1,12 @@
 <body>
   <aside>
-    <router-outlet></router-outlet>
+    <div class="navbar">
+      <app-header></app-header>
+      <app-navigation></app-navigation>
+      <app-account></app-account>
+    </div>
   </aside>
   <section>
-    <img src="assets/images/Logo.svg" alt="">
+    <router-outlet></router-outlet>
   </section>
 </body>

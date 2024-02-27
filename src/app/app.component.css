@@ -4,7 +4,7 @@ body {
 }
 
 aside {
-    width: 30vw;
+    width: 35vw;
     height: 100%;
     background-color: #5FA29F;
     display: flex;
@@ -22,4 +22,31 @@ section {
 
 img {
     width: 350px;
+}
+
+div.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+app-header {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+app-navigation {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+}
+
+app-account {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

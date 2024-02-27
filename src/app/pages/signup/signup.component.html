@@ -4,29 +4,40 @@
     </a>
     <section class="user-info">
         <div class="fname-field">
-            <input type="text">
-            <label for=""></label>
+            <input type="text" class="first-name" id="first-name" placeholder=" ">
+            <label for="first-name" class="fname-label">First Name</label>
         </div>
         <div class="mname-field">
-            <input type="text">
-            <label for=""></label>
+            <input type="text" class="middle-name" id="middle-name" placeholder=" ">
+            <label for="middle-name" class="mname-label">Middle Name</label>
         </div>
         <div class="lname-field">
-            <input type="text">
-            <label for=""></label>
+            <input type="text" class="last-name" id="last-name" placeholder=" ">
+            <label for="last-name" class="lname-label">Last Name</label>
         </div>
         <div class="gender-field">
-            <input type="radio">
-            <input type="radio">
-            <label for=""></label>
+            <p>Gender:</p>
+            <div class="gender-male">
+                <input type="radio" id="male" value="male">
+                <label for="male" class="male">Male</label>
+            </div>
+            <div class="gender-female">
+                <input type="radio" id="female" value="female">
+                <label for="female" class="female">Female</label>
+            </div>
         </div>
         <div class="position-field">
-            <select name="" id="">
+            <label for="pos-dropdown" class="pos-label">Position: </label>
+            <select name="position" id="pos-dropdown">
+                <option value="none"></option>
                 <option value="super-admin">Super Admin</option>
-                <option value="admin">
-                    Admin
-                </option>
+                <option value="admin">Admin</option>
             </select>
         </div>
+        <button class="submit-one">
+            <i>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z"/></svg>
+            </i>
+        </button>
     </section>
 </form>
